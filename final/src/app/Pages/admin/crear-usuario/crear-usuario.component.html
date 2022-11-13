@@ -1,0 +1,131 @@
+<div class="body">
+    <div class="row">
+      <div class="col-xl-3">
+      <app-siderbar></app-siderbar>
+      </div>
+      <div class="col-xl-9" id="contl">
+        <div id="cubo">
+          <div class="header text-white">
+            <h3>Bienvenidos al VRSO Virtual Registry of Social Organizations</h3>
+          </div>
+          <div class="card-body">
+            <div class="card-header1 bg-dark">
+              <div class="teditar">
+                <br />
+                <p class="card-header text-start text-warning">CREAR USUARIO</p>
+              </div>
+              <p class="text-start">
+                Para poder crear un usuario nuevo, seleccioné el boton new.Tambien podra modificar los datos del usuario.Y
+                si desea eliminar un usuario, seleccione la acción borrar para eliminar.Tambien puede buscar los usuarios por
+                su nombre y rol.
+              </p>
+              <hr />
+              <div class="card-body-1">
+                <div class="card-header row" id="rolbuscar">
+                  <div class="col-sm-4 text-start">
+                    <label>Nombre:</label><br />
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Ingrese el nombre del Empleado"
+                      id="nombrerol"
+                    />
+                  </div>
+                  <div class="col-sm-4 text-start">
+                    <label>Rol:</label><br />
+                    <select class="form-select" list="browsers">
+                      <option>Mesa de Partes</option>
+                      <option>Gerencia de Desarrollo Social</option>
+                      <option>Subgerencia de participacion vecinal</option>
+                      <option>Junta directiva</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-2 text-start ">
+                    <br />
+                    <button routerLink="/inicio-admin" class="btn btn-outline-light">
+                    <i class="bi bi-search"></i>&nbsp;&nbsp; Buscar
+                    </button>
+                  </div>
+                  <div class="col-sm-1 text-start">
+                    <br />
+                    <button
+                      routerLink="/crear-usuario/crear-usuario-new"
+                      class="btn btn bg-danger"
+                    >NEW</button>
+                  </div>
+                </div>
+                <br />
+                <div class="card-header3 bg-dark">
+                  <table class="table text-center align-middle">
+                    <thead class="titutab">
+                      <tr>
+                        <th scope="col">Nombres</th>
+                        <th scope="col">Apellidos</th>
+                        <th scope="col">DNI</th>
+                        <th scope="col">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Steven Anderson</td>
+                        <td>Carbajulca</td>
+                        <td>45678902</td>
+                        <td>
+                          <button class="btn btn bg-success" routerLink="/crear-usuario/crear-usuario-modificar">
+                            <i class="bi bi-pencil-fill"></i>
+                          </button>&nbsp;&nbsp;
+                          <button class="btn btn bg-danger">
+                            <i class="bi bi-trash-fill"></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Steven Anderson</td>
+                        <td>Carbajulca</td>
+                        <td>45678902</td>
+                        <td>
+                          <button class="btn btn bg-success" routerLink="/crear-usuario/crear-usuario-modificar">
+                            <i class="bi bi-pencil-fill"></i>
+                          </button>&nbsp;&nbsp;
+                          <button class="btn btn bg-danger">
+                            <i class="bi bi-trash-fill"></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Steven Anderson</td>
+                        <td>Carbajulca</td>
+                        <td>45678902</td>
+                        <td>
+                          <button class="btn btn bg-success" routerLink="/crear-usuario/crear-usuario-modificar">
+                            <i class="bi bi-pencil-fill"></i>
+                          </button>&nbsp;&nbsp;
+                          <button class="btn btn bg-danger">
+                            <i class="bi bi-trash-fill"></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Steven Anderson</td>
+                        <td>Carbajulca</td>
+                        <td>45678902</td>
+                        <td>
+                          <button class="btn btn bg-success" routerLink="/crear-usuario/crear-usuario-modificar">
+                            <i class="bi bi-pencil-fill"></i>
+                          </button>&nbsp;&nbsp;
+                          <button class="btn btn bg-danger">
+                            <i class="bi bi-trash-fill"></i>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

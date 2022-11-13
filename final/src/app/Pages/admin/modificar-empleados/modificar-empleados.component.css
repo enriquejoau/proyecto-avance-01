@@ -1,0 +1,49 @@
+
+.body{
+  width: 1908px;
+  height: 969px;
+  background-image:url("/assets/fondo1.jpg");
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+.card-body{
+  background: rgb(49, 48, 48);
+  color: aliceblue;
+  border-radius: 2em;
+}
+
+.table{
+  color: aliceblue;
+}
+#rolbuscar{
+  padding-left: 80px;
+}
+.titutab{
+  background: rgb(132, 20, 160);
+}
+.card-header1{
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 2em;
+}
+.card-header3{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+}
+.teditar{
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cubo{
+  border-radius: 2em;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background: rgba(88, 88, 88, 0.527);
+}
+#contl{
+  padding-top: 150px;
+  padding-right: 200px;
+}

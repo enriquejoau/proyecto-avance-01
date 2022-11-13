@@ -1,0 +1,41 @@
+
+.body{
+    width: 1908px;
+    height: 969px;
+    background-image:url("/assets/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  #separador{
+    padding-left: 50px;
+  }
+  #selec{
+    padding-top: 2px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .fech{
+    padding-left: 200px;
+    padding-right: 200px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    border: 0;
+  }
+  #botn{
+    padding-left: 300px;
+  }
+  #separador2{
+    background-image:url("/assets/tecle.jpg");
+    padding-right: 50px;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    width: 500px;
+  }
+  #contol{
+    padding-top: 100px;
+    padding-left: 30px;
+    
+  }

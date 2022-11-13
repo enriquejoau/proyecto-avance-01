@@ -1,0 +1,168 @@
+<div class="body">
+    <div class="row">
+      <div class="col-xl-3">
+      <app-siderbar></app-siderbar>
+      </div>
+      <div class="col-xl-9" id="contl">
+        <div id="cubo">
+          <div class="header text-white">
+            <h3>Bienvenidos al VRSO Virtual Registry of Social Organizations</h3>
+          </div>
+          <div class="card-body">
+            <div class="card-header1 bg-dark">
+              <div class="teditar">
+                <br />
+                <p class="card-header text-start text-warning">ORGANIZACIONES REGISTRADAS</p>
+              </div>
+              <p class="text-start">
+                Puede buscar las organizaciones por nombre, tipo, zona y nivel de organizacion; y ver los informes 
+                tecnicos y las resoluciones de reconocimientos.
+            </p>
+              <hr />
+              <div class="card-body-1">
+                <div class="card-header row" id="rolbuscar">
+                  <div class="col-sm-4 text-start">
+                    <label>Nombre de Organizacion:</label><br />
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Ingrese el nombre de organización"
+                      id="nombreorganizacion"
+                    />
+                  </div>
+                  <div class="col-sm-2 text-start">
+                    <label>Tipo:</label><br />
+                    <select class="form-select" list="browsers">
+                      <option>Vecinal</option>
+                      <option>Organizacion Juvenil</option>
+                      <option>Deportivo</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-2 text-start">
+                    <label>Zona:</label><br />
+                    <select class="form-select" list="browsers">
+                      <option>La Floresta</option>
+                      <option>Huascata</option>
+                      <option>Ñana</option>
+                      <option>Miguel Grau</option>
+                      <option>Los Halcones</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-2 text-start ">
+                    <br />
+                    <button routerLink="/inicio-admin" class="btn btn-outline-light">
+                    <i class="bi bi-search"></i>&nbsp;&nbsp; Buscar
+                    </button>
+                  </div>
+                </div>
+                <br />
+                <div class="card-header3 bg-dark text-center align-middle">
+                  <table class="table align-middle">
+                    <thead class="titutab align-middle">
+                      <tr>
+                        <th scope="col">Numero de Expediente</th>
+                        <th scope="col">Nombre de Organización</th>
+                        <th scope="col">Tipo</th>
+                        <th scope="col">Zona</th>
+                        <th scope="col">Nivel</th>
+                        <th scope="col">Informe Tecnico</th>
+                        <th scope="col">Resolucion</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>001-456-FT</td>
+                        <td>Salvador</td>
+                        <td>Vecinal</td>
+                        <td>La Floresta</td>
+                        <td>Primario</td>
+                        <td>
+                          <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                            <i class="bi bi-file-earmark-pdf-fill"></i>
+                          </button>
+                        </td>
+                        <td>
+                            <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                              <i class="bi bi-file-earmark-pdf-fill"></i>
+                            </button>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td>WE3-40Y-T0</td>
+                        <td>Alfa</td>
+                        <td>Org.Juvenil</td>
+                        <td>Huascata</td>
+                        <td>Secundario</td>
+                        <td>
+                          <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                            <i class="bi bi-file-earmark-pdf-fill"></i>
+                          </button>
+                        </td>
+                        <td>
+                            <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                              <i class="bi bi-file-earmark-pdf-fill"></i>
+                            </button>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td>874-J46-QR</td>
+                        <td>Vencedores</td>
+                        <td>Deportivo</td>
+                        <td>Ñaña</td>
+                        <td>Primario</td>
+                        <td>
+                          <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                            <i class="bi bi-file-earmark-pdf-fill"></i>
+                          </button>
+                        </td>
+                        <td>
+                            <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                              <i class="bi bi-file-earmark-pdf-fill"></i>
+                            </button>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td>BH9-432-05</td>
+                        <td>Friendly</td>
+                        <td>Org.Juvenil</td>
+                        <td>Miguel Grau</td>
+                        <td>Secundario</td>
+                        <td>
+                          <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                            <i class="bi bi-file-earmark-pdf-fill"></i>
+                          </button>
+                        </td>
+                        <td>
+                            <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                              <i class="bi bi-file-earmark-pdf-fill"></i>
+                            </button>
+                          </td>
+                      </tr>
+                      <tr>
+                        <td>FR6-12Y-12</td>
+                        <td>Winners</td>
+                        <td>Vecinal</td>
+                        <td>Los Halcones</td>
+                        <td>Primario</td>
+                        <td>
+                          <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                            <i class="bi bi-file-earmark-pdf-fill"></i>
+                          </button>
+                        </td>
+                        <td>
+                            <button class="btn text-danger" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                              <i class="bi bi-file-earmark-pdf-fill"></i>
+                            </button>
+                          </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

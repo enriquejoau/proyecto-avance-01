@@ -1,0 +1,118 @@
+<div class="body">
+    <div class="row">
+      <div class="col-sm-3">
+      <app-siderbar></app-siderbar>
+      </div>
+      <div class="col-sm-9" id="contl">
+        <div id="cubo">
+          <div class="header text-white">
+            <h3>Bienvenidos al VRSO Virtual Registry of Social Organizations</h3>
+          </div>
+          <div class="card-body">
+            <div class="card-header1 bg-dark">
+              <div class="teditar">
+                <br />
+                <p class="card-header text-start text-warning">PARAMETROS</p>
+              </div>
+              <p class="text-start">
+                Para poder modificar un parametro, seleccioné el boton modificar. Tambien podra ver los datos de los 
+                parametros. Tambien puede buscar los paramentros por nombre y tipo de parametro.
+              </p>
+              <hr />
+              <div class="card-body-1">
+                <div class="card-header row" id="rolbuscar">
+                  <div class="col-sm-4 text-start">
+                    <label>Nombre:</label><br />
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Ingrese el nombre del Empleado"
+                      id="nombrerol"
+                    />
+                  </div>
+                  <div class="col-sm-4 text-start">
+                    <label>Tipo de Parametro:</label><br />
+                    <select class="form-select" list="browsers">
+                      <option>Tipo de Organizacion</option>
+                      <option>Zona</option>
+                      <option>Nivel</option>
+                      <option>Cargo Junta directiva</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-2 text-start ">
+                    <br />
+                    <button routerLink="/parametros/parametros-modificar" class="btn btn-outline-light">
+                    <i class="bi bi-search"></i>&nbsp;&nbsp; Buscar
+                    </button>
+                  </div>
+                  <div class="col-sm-1 text-start">
+                    <br />
+                    <button
+                      routerLink="/parametros/parametros-modificar"
+                      class="btn btn bg-primary"
+                    >Modificar</button>
+                  </div>
+                </div>
+                <br />
+                <div class="card-header3 bg-dark">
+                  <table class="table text-center align-middle">
+                    <thead class="titutab">
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Tipo_Parametro</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Estado</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>P01</td>
+                        <td>Tipo de Organización</td>
+                        <td>Deportivo</td>
+                        <td>
+                          <button class="btn btn text-white" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                            <i class="bi bi-eye">&nbsp;&nbsp;</i>Activo
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>P02</td>
+                        <td>Zona</td>
+                        <td>La Floresta</td>
+                        <td>
+                          <button class="btn btn text-white" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                            <i class="bi bi-eye">&nbsp;&nbsp;</i>Activo
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>P03</td>
+                        <td>Nivel</td>
+                        <td>Primario</td>
+                        <td>
+                          <button class="btn btn text-white" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                            <i class="bi bi-eye">&nbsp;&nbsp;</i>Activo
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>P04</td>
+                        <td>Cargo junta directiva</td>
+                        <td>Presidente</td>
+                        <td>
+                          <button class="btn btn text-white" routerLink="/modificar-empleados/modificar-empleados-modificar">
+                            <i class="bi bi-eye">&nbsp;&nbsp;</i>Activo
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
